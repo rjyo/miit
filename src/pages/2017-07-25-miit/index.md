@@ -11,9 +11,7 @@ path: "/miit-begins/"
 3. 购房贵，相对国外性价比低很多。而租房也贵，房子的状态也很一般
 4. 空气污染和食品安全
 
-而最近的微博难民涌入 Twitter，路上被扫描手机等，则让我彻底的打消了这个回国念头。作为一个互联网从业者，能够自由的选择工作和生活，是不是要比回国实现抱负，或是在帝都魔都有房有车，更有意义呢？
-
-![Red Pill](./pill_offer.jpg)
+而最近的微博难民涌入 Twitter，路上被扫描手机等，则让我彻底的打消了这个回国念头。作为一个互联网从业者，能够自由地选择工作和生活，是不是要比回国实现抱负，或是在帝都魔都有房有车，更有意义呢？
 
 接触过 Google 和 Twitter 等服务后的我们，就好像吃下了红色药丸的 Neo，除了行动起来做些什么，并没有其他的选择。
 
@@ -25,7 +23,7 @@ miit 致力于帮助墙内的互联网从业者们，姿势优雅的，肉身翻
 
 从2015年初到2016夏天，我花了一年半左右的时间在上海创业。很明显，国内的工程师和设计师无论在能力还是眼界上，都远超日本的平均水平。
 
-为什么不考虑一下来这个市场规模相当于中国的1/10，高度城市化，用户付费习惯良好，IT业竞争尚未完全红海化的地方，来试一试你的身手呢。
+为什么不考虑一下来这个市场规模相当于中国的1/10，高度城市化，用户付费习惯良好，IT业竞争尚未完全红海化的地方，试一试你的身手呢。
 
 日本之外，美国、澳洲、加拿大、欧洲、甚至非洲，世界的各地一定有更多的这样的机会。希望更多的朋友能够一起加入 miit 计划，提供这些信息给身在墙内的朋友。
 
@@ -59,16 +57,23 @@ miit 致力于帮助墙内的互联网从业者们，姿势优雅的，肉身翻
     border-style: none;
     outline: none;
   }
+  #mc_embed_signup input[type="email"] {
+    max-width: 90%;
+  }
   #mc_embed_signup input[type="submit"] {
     min-width: 80px;
     background: #DDD;
     font-weight: bold;
+    cursor: pointer;
   }
+  #mc_embed_signup input[type="submit"]:hover {
+    background: #CCC;
+  }  
 </style>
 <div id="mc_embed_signup">
 <form action="//life.us7.list-manage.com/subscribe/post?u=cbac83d80a72e2e8d1684b4f2&amp;id=7c311c620a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	<label for="mce-EMAIL">订阅 miit 邮件列表</label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="邮件地址" required>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="邮件地址" size="40" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cbac83d80a72e2e8d1684b4f2_7c311c620a" tabindex="-1" value=""></div>
   <input type="submit" value="订阅" name="subscribe" id="mc-embedded-subscribe" class="button">

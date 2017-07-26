@@ -20,7 +20,7 @@ class Bio extends React.Component {
             miit 
           </Link>
           {" "}
-          希望帮助墙内的互联网从业者找到一个
+          希望帮助尚在墙内的互联网从业者找到一个
           <strong>更自由和舒适</strong>
           的工作方式 - 如肉身翻墙，或远程工作。
         </p>
