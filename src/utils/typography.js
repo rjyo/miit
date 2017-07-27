@@ -1,20 +1,7 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+import Wordpress2016Custom from './theme'
 
-const theme = Wordpress2016
-theme.googleFonts = []
-theme.bodyFontFamily = [
-  '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'PingFang SC', 
-  'Hiragino Sans GB', 'Droid Sans Fallback', 'Microsoft YaHei', 'sans-serif',
-]
-theme.headerFontFamily = ['Avenir Next', ...theme.bodyFontFamily]
-theme.overrideThemeStyles = ({ rhythm }, options) => ({
-  h1: {
-    fontFamily: theme.headerFontFamily.join(','),
-  }
-})
-
-const typography = new Typography(theme)
+const typography = new Typography(Wordpress2016Custom)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {

@@ -2,9 +2,6 @@ import React from "react"
 import Link from "gatsby-link"
 
 // Import typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
-
 import { rhythm } from "../utils/typography"
 
 class Bio extends React.Component {
